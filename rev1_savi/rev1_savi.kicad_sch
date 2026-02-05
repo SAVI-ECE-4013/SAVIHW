@@ -5,7 +5,7 @@
 	(uuid "0dcf8cfa-2163-403c-960d-55c5d774a42a")
 	(paper "A4")
 	(title_block
-		(title "SAVI I2C Sensor Bus (Pi + LiDAR + BNO055)")
+		(title "SAVI I2C Sensor Bus (Pi + LiDAR + ICM-20948)")
 	)
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_4"
