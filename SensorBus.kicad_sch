@@ -483,7 +483,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sensors5:BNO055_IC2"
+		(symbol "sensors2:BNO055_IC2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -497,7 +497,7 @@
 				)
 			)
 			(property "Value" "BNO055_IC2"
-				(at 0.508 -6.096 0)
+				(at 0.508 -8.89 0)
 				(show_name)
 				(effects
 					(font
@@ -619,7 +619,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 -6.35 0)
+					(at 15.24 -6.35 180)
 					(length 2.54)
 					(name "3VO"
 						(effects
@@ -637,7 +637,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -13.97 0)
+					(at 15.24 -13.97 180)
 					(length 2.54)
 					(name "PS0"
 						(effects
@@ -655,7 +655,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -17.78 0)
+					(at 15.24 -17.78 180)
 					(length 2.54)
 					(name "PS1"
 						(effects
@@ -673,7 +673,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 -21.59 0)
+					(at 15.24 -21.59 180)
 					(length 2.54)
 					(name "INT"
 						(effects
@@ -691,7 +691,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -25.4 0)
+					(at 15.24 -25.4 180)
 					(length 2.54)
 					(name "ADR"
 						(effects
@@ -709,7 +709,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -33.02 0)
+					(at 15.24 -33.02 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -875,16 +875,44 @@
 		(uuid "107638b8-80f4-4cd6-bb47-69d1e0cffb9b")
 	)
 	(junction
+		(at 208.28 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "373a926b-a842-4e06-900d-b7c24eb3453b")
+	)
+	(junction
 		(at 247.65 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d30ae28-11f1-4686-b93c-8d8299479049")
 	)
 	(junction
+		(at 208.28 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "775a6454-2c29-46f1-be9d-5683a1b82a9d")
+	)
+	(junction
 		(at 247.65 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3f4fb5b-1127-42c8-a65a-10ddcaec8a86")
+	)
+	(junction
+		(at 208.28 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a63f65-8a8c-4306-9c7c-66915f385696")
+	)
+	(wire
+		(pts
+			(xy 209.55 53.34) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cb9da9-0e3a-4f5b-9440-cf2d4dce5153")
 	)
 	(wire
 		(pts
@@ -905,6 +933,16 @@
 			(type default)
 		)
 		(uuid "2af4d951-a822-4123-ab7b-02befb8b4f70")
+	)
+	(wire
+		(pts
+			(xy 209.55 71.12) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317a4e69-612c-4c05-bb29-6d153746ca14")
 	)
 	(wire
 		(pts
@@ -988,6 +1026,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bac2758-bc8a-4d0f-822e-20504e72d1ee")
+	)
+	(wire
+		(pts
 			(xy 95.25 130.81) (xy 100.33 130.81)
 		)
 		(stroke
@@ -1018,6 +1066,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3b692d-8cda-4f18-a1c8-1673ae59fd1e")
+	)
+	(wire
+		(pts
 			(xy 247.65 63.5) (xy 247.65 67.31)
 		)
 		(stroke
@@ -1038,13 +1096,23 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b283067-3a21-4e77-86ed-38ae1973120a")
+	)
+	(wire
+		(pts
 			(xy 238.76 63.5) (xy 247.65 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eb9ac65-1313-4895-8877-f5bc1c6810dd")
+		(uuid "a28a329b-2b9d-471a-bd73-a42c5c53a9db")
 	)
 	(wire
 		(pts
@@ -1085,16 +1153,6 @@
 			(type default)
 		)
 		(uuid "ba56c1c0-143d-4b85-b635-0c271de71070")
-	)
-	(wire
-		(pts
-			(xy 238.76 59.69) (xy 247.65 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba633119-d237-4321-a52f-1a5491040a56")
 	)
 	(wire
 		(pts
@@ -1148,6 +1206,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 59.69) (xy 247.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4595ee-d605-4395-ad70-3c3de3d8ed31")
+	)
+	(wire
+		(pts
 			(xy 193.04 59.69) (xy 208.28 59.69)
 		)
 		(stroke
@@ -1195,6 +1263,16 @@
 			(type default)
 		)
 		(uuid "f6e3253b-59b5-4c5a-9789-54ef1aa36b33")
+	)
+	(wire
+		(pts
+			(xy 240.03 55.88) (xy 238.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8264da2-8bbf-4c75-9873-d9a11819e093")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
@@ -1375,102 +1453,6 @@
 			(project "rev1_savi_root"
 				(path "/241fe27d-f15c-49f2-a703-528239fb7ddd/47a17038-38f9-4ccd-a989-e4987ae8c367"
 					(reference "R302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sensors5:BNO055_IC2")
-		(at 223.52 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12ef3613-a1aa-434d-bdff-eb7f9d8fb4f7")
-		(property "Reference" "U1"
-			(at 242.57 60.3249 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BNO055_IC2"
-			(at 242.57 62.8649 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "75406e27-fdc6-473a-8d82-55dacfaaddf5")
-		)
-		(pin "6"
-			(uuid "d66f5ce0-efd8-4b74-a8ee-07ef44b426fc")
-		)
-		(pin "5"
-			(uuid "49bf0df9-8152-4e13-8b9c-43485998210d")
-		)
-		(pin "4"
-			(uuid "145c6603-24c3-40d6-9e4b-a522cbed7c87")
-		)
-		(pin "3"
-			(uuid "36941b06-dfd4-4b48-b5af-ff429d463be0")
-		)
-		(pin "7"
-			(uuid "affdd2ff-75ba-470b-9c17-a06d57cf6f3c")
-		)
-		(pin "2"
-			(uuid "dd4dc85a-71bd-407c-87c4-7599abbe7ac4")
-		)
-		(pin "1"
-			(uuid "338aa865-d328-4a4c-8e9e-6da30ab796ba")
-		)
-		(pin "9"
-			(uuid "2ee3181f-c277-42b5-ae16-777b5232d2d0")
-		)
-		(pin "10"
-			(uuid "55157d85-d32d-4523-b4e4-511a87d80f90")
-		)
-		(instances
-			(project ""
-				(path "/241fe27d-f15c-49f2-a703-528239fb7ddd/47a17038-38f9-4ccd-a989-e4987ae8c367"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2448,6 +2430,100 @@
 			(project "rev1_savi_root"
 				(path "/241fe27d-f15c-49f2-a703-528239fb7ddd/47a17038-38f9-4ccd-a989-e4987ae8c367"
 					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sensors2:BNO055_IC2")
+		(at 223.52 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06056f3-6bfd-4b49-8978-c774167e32b0")
+		(property "Reference" "U2"
+			(at 223.52 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BNO055_IC2"
+			(at 223.52 41.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1a246111-cb28-481f-be09-f1f6c0063056")
+		)
+		(pin "2"
+			(uuid "063a3e3b-47ee-4de4-9be3-6326ec8b0218")
+		)
+		(pin "1"
+			(uuid "794d7146-c767-4986-b21f-898f7116191c")
+		)
+		(pin "6"
+			(uuid "4b9fcd2c-7417-4d9f-af1a-78babe17341c")
+		)
+		(pin "7"
+			(uuid "27c9c5d9-daf3-43bc-820c-21ee72679e85")
+		)
+		(pin "5"
+			(uuid "157c1791-f86f-4568-b8a8-ada9e0d694b9")
+		)
+		(pin "4"
+			(uuid "f22f2502-c177-457d-a8e1-5dd859ef3cd5")
+		)
+		(pin "8"
+			(uuid "5a99629d-fa8e-4798-8470-1f86c362309e")
+		)
+		(pin "9"
+			(uuid "7b4daba1-3491-4046-9489-cd50535987cb")
+		)
+		(pin "10"
+			(uuid "040553a0-a00e-43e2-915f-ae7486fde60b")
+		)
+		(instances
+			(project ""
+				(path "/241fe27d-f15c-49f2-a703-528239fb7ddd/47a17038-38f9-4ccd-a989-e4987ae8c367"
+					(reference "U2")
 					(unit 1)
 				)
 			)
